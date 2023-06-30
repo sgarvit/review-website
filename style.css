@@ -1,0 +1,685 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: orange;
+    --hover-color: rgb(149, 100, 8);
+    --dark-color: #000;
+    --light-color: #fff;
+    --medium-color: grey;
+    --unique-color: darkslateblue;
+}
+
+.container-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.container-1 .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.container-1 .logo h1 {
+    color: var(--unique-color);
+    margin-top: 3px;
+}
+
+.container-1 .navigation {
+    padding: 8px 16px;
+}
+
+.container-1 .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 .navigation ul li a {
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 8px;
+    color: var(--dark-color);
+}
+
+.container-1 .navigation ul li a:hover {
+    transition: all 0.25s ease-in;
+    color: var(--hover-color);
+    border-bottom: 5px double var(--unique-color);
+}
+
+#one {
+    color: var(--medium-color);
+    opacity: 10%;
+    width: 100%;
+}
+
+.container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 16px;
+}
+
+.container-2 .details {
+    padding: 8px 16px;
+}
+
+.container-2 .details h1 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+    font-size: 50px;
+}
+
+.container-2 .details h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: var(--unique-color);
+}
+
+.container-2 .details p {
+    color: var(--medium-color);
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.container-2 .details p b {
+    color: red;
+}
+
+.container-2 .details p:hover {
+    color: var(--dark-color);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container-2 .image {
+    padding: 8px 16px;
+}
+
+.container-2 .image img {
+    width: 600px;
+    height: 300px;
+}
+
+.container-3 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: var(--unique-color);
+}
+
+.container-3 h1 {
+    padding: 16px;
+}
+
+.container-4 {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 2rem;
+}
+
+.container-4 .row-1 {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+}
+
+.container-4 .row-1 .card-1 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-1 .card-1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-1 .card-1 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-1 .card-1 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.container-4 .row-1 .card-1 button:hover {
+    background-color: var(--hover-color);
+}
+
+
+.container-4 .row-1 .card-1 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.container-4 .row-1 .two {
+    color: var(--medium-color);
+    opacity: 20%;
+}
+
+/* ================ */
+
+
+.container-4 .row-1 .card-2 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-1 .card-2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-1 .card-2 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-1 .card-2 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+
+.container-4 .row-1 .card-2 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.container-4 .row-1 .card-2 button:hover {
+    background-color: var(--hover-color);
+}
+
+/* ====================== */
+
+
+.container-4 .row-1 .card-3 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-1 .card-3 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-1 .card-3 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-1 .card-3 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+
+.container-4 .row-1 .card-3 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.container-4 .row-1 .card-3 button:hover {
+    background-color: var(--hover-color);
+}
+
+
+
+.container-4 .row-2 {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.container-4 .row-2 .card-1 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-2 .card-1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-2 .card-1 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-2 .card-1 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.container-4 .row-2 .card-1 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.container-4 .row-2 .card-1 button:hover {
+    background-color: var(--hover-color);
+}
+
+.container-4 .row-2 .two {
+    color: var(--medium-color);
+    opacity: 20%;
+}
+
+/* ================ */
+
+
+.container-4 .row-2 .card-2 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-2 .card-2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-2 .card-2 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-2 .card-2 button {
+    padding: 8px 16px;
+    border: none;
+    margin-top: 0.5rem;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.container-4 .row-2 .card-2 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container-4 .row-2 .card-2 button:hover {
+    background-color: var(--hover-color);
+}
+
+/* ====================== */
+
+
+.container-4 .row-2 .card-3 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-2 .card-3 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-2 .card-3 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-2 .card-3 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.container-4 .row-2 .card-3 button:hover {
+    background-color: var(--hover-color);
+}
+
+.container-4 .row-2 .card-3 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+/* ======================================== */
+
+
+.container-4 .row-3 {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.container-4 .row-3 .card-1 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-3 .card-1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-3 .card-1 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-3 .card-1 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.container-4 .row-3 .card-1 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.container-4 .row-3 .card-1 button:hover {
+    background-color: var(--hover-color);
+}
+
+.container-4 .row-3 .two {
+    color: var(--medium-color);
+    opacity: 20%;
+}
+
+/* ================ */
+
+
+.container-4 .row-3 .card-2 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-3 .card-2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-3 .card-2 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-3 .card-2 button {
+    padding: 8px 16px;
+    border: none;
+    margin-top: 0.5rem;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.container-4 .row-3 .card-2 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container-4 .row-3 .card-2 button:hover {
+    background-color: var(--hover-color);
+}
+
+/* ====================== */
+
+
+.container-4 .row-3 .card-3 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.container-4 .row-3 .card-3 img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-4 .row-3 .card-3 h2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-4 .row-3 .card-3 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.container-4 .row-3 .card-3 button:hover {
+    background-color: var(--hover-color);
+}
+
+.container-4 .row-3 .card-3 p {
+    color: var(--medium-color);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container-5 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: var(--unique-color);
+}
+
+.container-5 h1 {
+    padding: 16px;
+}
+
+#small-bar-2 {
+    color: var(--unique-color);
+    width: 100px;
+    border: 0.1rem solid black;
+    margin-left: 44.7rem;
+}
+
+.container-6 {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 16px 36px;
+}
+
+.container-6 .description {
+    background-color: var(--light-color);
+    border-radius: 80px 5px 10px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.258);
+    padding: 16px 36px;
+}
+
+.container-6 .description:hover {
+    transition: all 0.3s ease-in-out;
+    color: var(--dark-color);
+    background-color: rgb(255, 250, 244);
+}
+
+.container-6 .description h4 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: var(--unique-color);
+    font-weight: 450;
+}
+
+.container-6 .description p {
+    letter-spacing: 0.5px;
+    color: var(--medium-color);
+}
+
+.container-6 .description p:hover {
+    color: var(--dark-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.container-7 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: var(--unique-color);
+}
+
+.container-7 h1 {
+    padding: 16px;
+}
+
+#small-bar-3 {
+    color: var(--unique-color);
+    width: 100px;
+    border: 0.1rem solid black;
+    margin-left: 44.7rem;
+}
+
+.container-8 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--unique-color);
+    align-items: center;
+    margin-top: 1rem;
+    padding: 8px 16px;
+}
+
+.container-8 .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-8 .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.container-8 .logo h1 {
+    color: var(--light-color);
+    margin-top: 3px;
+}
+
+.container-8 .social-media {
+    padding: 8px;
+}
+
+.container-8 .social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-8 .social-media ul li i {
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 5px;
+    /* font-size: large; */
+    background-color: var(--light-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container-8 .social-media ul li i:hover {
+    background-color: #ad9f9f;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-9 {
+    width: 100%;
+    background-color: var(--unique-color);
+    padding-left: 16px;
+}
+
+.container-9 p {
+    color: var(--light-color);
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-weight: 300;
+}
+
+.container-9 h3 {
+    color: var(--light-color);
+    font-size: 11px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.container-10 {
+    width: 100%;
+    background-color: var(--dark-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.container-10 p {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
